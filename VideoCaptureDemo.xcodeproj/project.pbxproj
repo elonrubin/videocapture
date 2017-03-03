@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		EF559FAB1E687F8700DB975F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF559FAA1E687F8700DB975F /* AppDelegate.swift */; };
-		EF559FAD1E687F8700DB975F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF559FAC1E687F8700DB975F /* ViewController.swift */; };
-		EF559FB01E687F8700DB975F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF559FAE1E687F8700DB975F /* Main.storyboard */; };
 		EF559FB21E687F8800DB975F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF559FB11E687F8800DB975F /* Assets.xcassets */; };
 		EF559FB51E687F8800DB975F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF559FB31E687F8800DB975F /* LaunchScreen.storyboard */; };
+		EF559FBD1E687FCE00DB975F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF559FBC1E687FCE00DB975F /* ViewController.swift */; };
+		EF559FC11E687FEF00DB975F /* CustomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF559FBE1E687FEF00DB975F /* CustomOverlayViewController.swift */; };
+		EF559FC21E687FEF00DB975F /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF559FBF1E687FEF00DB975F /* CustomOverlayView.swift */; };
+		EF559FC31E687FEF00DB975F /* CustomOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF559FC01E687FEF00DB975F /* CustomOverlayViewController.xib */; };
+		EF559FC51E68814600DB975F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF559FC41E68814600DB975F /* Main.storyboard */; };
+		EFE6EACE1E688E4100A11B49 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE6EACD1E688E4100A11B49 /* SignUpViewController.swift */; };
+		EFE6EAD01E6894C200A11B49 /* Parse Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE6EACF1E6894C200A11B49 /* Parse Methods.swift */; };
+		FA1E1D77C8BCAF26E4BE4663 /* Pods_VideoCaptureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C110FACDC60D6C66357C0138 /* Pods_VideoCaptureDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02AAC29E1291EF42D5D929DF /* Pods-VideoCaptureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCaptureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoCaptureDemo/Pods-VideoCaptureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A1E056CA61640DD1842987E6 /* Pods-VideoCaptureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCaptureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoCaptureDemo/Pods-VideoCaptureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C110FACDC60D6C66357C0138 /* Pods_VideoCaptureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoCaptureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF559FA71E687F8700DB975F /* VideoCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF559FAA1E687F8700DB975F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF559FAC1E687F8700DB975F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF559FAF1E687F8700DB975F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF559FB11E687F8800DB975F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF559FB41E687F8800DB975F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF559FB61E687F8800DB975F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF559FBC1E687FCE00DB975F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF559FBE1E687FEF00DB975F /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayViewController.swift; sourceTree = "<group>"; };
+		EF559FBF1E687FEF00DB975F /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		EF559FC01E687FEF00DB975F /* CustomOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayViewController.xib; sourceTree = "<group>"; };
+		EF559FC41E68814600DB975F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EFE6EACD1E688E4100A11B49 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EFE6EACF1E6894C200A11B49 /* Parse Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Parse Methods.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1E1D77C8BCAF26E4BE4663 /* Pods_VideoCaptureDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BAFC1BB3052ED836746259E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1E056CA61640DD1842987E6 /* Pods-VideoCaptureDemo.debug.xcconfig */,
+				02AAC29E1291EF42D5D929DF /* Pods-VideoCaptureDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9C84F5BFB7E6008DBDDBD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C110FACDC60D6C66357C0138 /* Pods_VideoCaptureDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF559F9E1E687F8700DB975F = {
 			isa = PBXGroup;
 			children = (
 				EF559FA91E687F8700DB975F /* VideoCaptureDemo */,
 				EF559FA81E687F8700DB975F /* Products */,
+				3BAFC1BB3052ED836746259E /* Pods */,
+				A9C84F5BFB7E6008DBDDBD62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +88,14 @@
 		EF559FA91E687F8700DB975F /* VideoCaptureDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EFE6EACF1E6894C200A11B49 /* Parse Methods.swift */,
 				EF559FAA1E687F8700DB975F /* AppDelegate.swift */,
-				EF559FAC1E687F8700DB975F /* ViewController.swift */,
-				EF559FAE1E687F8700DB975F /* Main.storyboard */,
+				EF559FC41E68814600DB975F /* Main.storyboard */,
+				EFE6EACD1E688E4100A11B49 /* SignUpViewController.swift */,
+				EF559FBC1E687FCE00DB975F /* ViewController.swift */,
+				EF559FBE1E687FEF00DB975F /* CustomOverlayViewController.swift */,
+				EF559FBF1E687FEF00DB975F /* CustomOverlayView.swift */,
+				EF559FC01E687FEF00DB975F /* CustomOverlayViewController.xib */,
 				EF559FB11E687F8800DB975F /* Assets.xcassets */,
 				EF559FB31E687F8800DB975F /* LaunchScreen.storyboard */,
 				EF559FB61E687F8800DB975F /* Info.plist */,
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF559FB91E687F8800DB975F /* Build configuration list for PBXNativeTarget "VideoCaptureDemo" */;
 			buildPhases = (
+				FB521AD1B2A0CBC5FA7AB3AA /* [CP] Check Pods Manifest.lock */,
 				EF559FA31E687F8700DB975F /* Sources */,
 				EF559FA41E687F8700DB975F /* Frameworks */,
 				EF559FA51E687F8700DB975F /* Resources */,
+				B642F25812228FF9F4D681A4 /* [CP] Embed Pods Frameworks */,
+				A44F3871879B29D2F9050F2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,35 +166,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF559FC31E687FEF00DB975F /* CustomOverlayViewController.xib in Resources */,
 				EF559FB51E687F8800DB975F /* LaunchScreen.storyboard in Resources */,
 				EF559FB21E687F8800DB975F /* Assets.xcassets in Resources */,
-				EF559FB01E687F8700DB975F /* Main.storyboard in Resources */,
+				EF559FC51E68814600DB975F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A44F3871879B29D2F9050F2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoCaptureDemo/Pods-VideoCaptureDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B642F25812228FF9F4D681A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoCaptureDemo/Pods-VideoCaptureDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB521AD1B2A0CBC5FA7AB3AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF559FA31E687F8700DB975F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF559FAD1E687F8700DB975F /* ViewController.swift in Sources */,
+				EF559FC11E687FEF00DB975F /* CustomOverlayViewController.swift in Sources */,
+				EFE6EAD01E6894C200A11B49 /* Parse Methods.swift in Sources */,
+				EF559FBD1E687FCE00DB975F /* ViewController.swift in Sources */,
+				EF559FC21E687FEF00DB975F /* CustomOverlayView.swift in Sources */,
 				EF559FAB1E687F8700DB975F /* AppDelegate.swift in Sources */,
+				EFE6EACE1E688E4100A11B49 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF559FAE1E687F8700DB975F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF559FAF1E687F8700DB975F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF559FB31E687F8800DB975F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -204,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -257,10 +344,12 @@
 		};
 		EF559FBA1E687F8800DB975F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E056CA61640DD1842987E6 /* Pods-VideoCaptureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U7QG5FXY5E;
 				INFOPLIST_FILE = VideoCaptureDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bsi.VideoCaptureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +359,12 @@
 		};
 		EF559FBB1E687F8800DB975F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AAC29E1291EF42D5D929DF /* Pods-VideoCaptureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U7QG5FXY5E;
 				INFOPLIST_FILE = VideoCaptureDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bsi.VideoCaptureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +391,7 @@
 				EF559FBB1E687F8800DB975F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

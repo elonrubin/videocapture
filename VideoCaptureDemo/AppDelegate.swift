@@ -1,4 +1,4 @@
-//
+    //
 //  AppDelegate.swift
 //  VideoCaptureDemo
 //
@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        PFUser.registerSubclass()
+        let configuration = ParseClientConfiguration  {
+            $0.applicationId = "videodemosdgf234tgh3rad"
+            $0.clientKey = "dffhtser342trefgt3"
+            $0.server = "https://videostreamdemo.herokuapp.com/parse"
+            $0.isLocalDatastoreEnabled = true
+        }
+        
+         Parse.initialize(with: configuration)
+        
+        var startViewController: UIViewController;
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if PFUser.current() != nil {
+            
+           startViewController = storyboard.instantiateViewController(withIdentifier: "MainVC")
+        } else {
+            
+            startViewController = storyboard.instantiateViewController(withIdentifier: "SignUpVC")
+
+        }
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = startViewController;
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
